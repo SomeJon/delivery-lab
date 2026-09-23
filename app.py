@@ -1,5 +1,9 @@
 def health_payload():
     return {
-        "status": "not ok",
+        "status": "ok",
         "version": "dev"
     }
+
+
+if __name__ == "__main__":
+    main()
