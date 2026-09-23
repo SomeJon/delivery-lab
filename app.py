@@ -1,5 +1,5 @@
 def health_payload():
     return {
-        "status": "ok",
+        "status": "not ok",
         "version": "dev"
     }
